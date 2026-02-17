@@ -172,3 +172,57 @@ int main(){
 }*/
 
 //ncr calculations using functions
+/*int factorial(int n){
+    int fact =1;
+    for(int i=1;i<=n;i++){
+        fact *=i;
+    }
+    return fact;
+}
+
+int ncr(int n,int r){
+    int num = factorial(n);
+    int denom = factorial(r)*factorial(n-r);
+    return num/denom;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    int r;
+    cin>>r;
+
+    if(r>n){
+        cout<<0;
+        return 0;
+    }
+    cout<<"ncr of "<<n<<" and "<<r<<" :"<<ncr(n,r);
+
+}*/
+
+//check prime number thriough calling a function
+/*bool isPrime(int n){
+    for(int i=2;i<n;i++){
+        if(n%i==0){
+            return false;
+        }
+    }
+    return true;
+}
+int main(){
+    int n;
+    cin>>n;
+
+    if(n==1){
+        cout<<"not prime";
+        return 0;
+    }
+    
+    if(isPrime(n)){
+        cout<<n<<" is a prime no"<<endl;
+    }
+    else 
+        cout<<n<<" is a composite number";
+}*/
+
+//pass by value, value in main not affected by the functions use of it.
