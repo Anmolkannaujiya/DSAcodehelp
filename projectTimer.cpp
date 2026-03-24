@@ -5,7 +5,7 @@
 using namespace std;
 
 //mini project, creating a timer in cpp using ctime, chrono and thread
-//note: we have to use g++ 11 or newer version, so compile the ocde like below
+//note: we have to use g++ 11 or newer version, so compile the code like below
 //g++ projectTimer.cpp -std=c++17 -o projectTimer
 
 string getCurrentDateTime(){
